@@ -1,0 +1,57 @@
+@media (max-width: 992px) {
+    .film .film-block{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+@media (max-width: 580px) {
+    header .poster{
+        padding: 10px 0px;
+    }
+    
+    header .poster i{
+        font-size: 25px;
+    }
+    
+    header .poster p{
+        font-size: 12px;
+        
+    }    
+    
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 12px;
+    }
+    
+    header .text h1{
+        font-size: 50px;
+    }
+    
+    header .text{
+        padding: 50px;
+    }
+    
+    header .text p{
+        font-size: 14px;
+    }
+    
+    header .text .btn{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header .text .btn a{
+        width: 100%;
+        margin-bottom: 9px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .film .film-block{
+        grid-template-columns: 1fr;
+    }
+    
+}
